@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import {
   type ColorInfo,
   type HarmonyMode,
@@ -397,7 +397,7 @@ function App() {
 
             <div className="export-formats">
               <div className="format-chips">
-                {palette.map((c, i) => (
+                {palette.map((c) => (
                   <div key={c.id} className="format-chip">
                     <div className="chip-dot" style={{ background: c.hex }} />
                     <span>{c.hex.toUpperCase()}</span>

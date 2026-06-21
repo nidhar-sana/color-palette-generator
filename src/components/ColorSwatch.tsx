@@ -2,8 +2,8 @@ import React, { useState, useRef } from "react";
 import {
   // ColorInfo,
   getContrastColor,
-  hslToHex,
-  hexToHsl,
+  // hslToHex,
+  // hexToHsl,
   isValidHex,
   type ColorInfo,
 } from "../utils/colorUtils";
